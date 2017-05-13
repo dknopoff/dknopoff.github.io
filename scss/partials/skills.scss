@@ -41,6 +41,7 @@
   color: white;
 }
 
+.back:focus,
 .back:hover {
   box-shadow: 0 4px 12px 0 (#020202);
 }
@@ -83,4 +84,13 @@
 .front__w {
   background-color: #0061ff;
   width: 70%;
+}
+@media screen and (max-width: 1000px) {
+  .skills__text {
+    font-size: 24px;
+  }
+
+  .container__skill {
+    margin-left: 15%;
+  }
 }
