@@ -25,7 +25,7 @@ html {
   font-size: 38px;
   line-height: 44px;
   font-weight: 300;
-  color: #e0e0e0;
+  color: black; //#e0e0e0
   text-align: center;
 }
 
@@ -37,12 +37,14 @@ html {
   padding: 10px;
   border-radius: 4px;
   overflow: hidden;
-  background-color: #333333;
+  background-color: #f9f9f9; //#333333
+  box-shadow: 1px 6px 23px -11px rgba(0,0,0,0.75);
 }
 
 .card:focus,
 .card:hover {
-  box-shadow: 0 4px 12px 0 (#020202);
+  //  box-shadow: 0 4px 12px 0 (#020202);
+  //box-shadow: 1px 6px 23px -11px rgba(0,0,0,0.75);
 }
 
 .card__image {
@@ -53,7 +55,8 @@ html {
 
 .card__image:focus,
 .card__image:hover {
-  box-shadow: 0 4px 8px 0 (#020202);
+  //box-shadow: 0 4px 8px 0 (#020202);
+  box-shadow: 1px 6px 23px -11px rgba(0,0,0,0.75);
 }
 
 .card__image-white {
@@ -67,7 +70,7 @@ html {
 }
 
 .card__title {
-  color: #afafaf;
+  color: black; //#afafaf
   font-size: 20px;
   font-family: Lato, sans-serif;
   padding-bottom: 5px;
@@ -75,7 +78,7 @@ html {
 }
 
 .card__text {
-  color: #afafaf;
+  color: black; //#afafaf
   font-family: Lato, sans-serif;
   text-align: left;
   font-size: 16px;
@@ -83,7 +86,7 @@ html {
 }
 
 .card__loc {
-  color: #afafaf;
+  color: black; //#afafaf
   font-family: Lato, sans-serif;
   text-align: center;
   padding-bottom: 3px;

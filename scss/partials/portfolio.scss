@@ -17,17 +17,20 @@ body {
   padding: 10px;
   border-radius: 4px;
   overflow: hidden;
-  background-color: #333333;
+  background-color: #f9f9f9; //#333333
+  box-shadow: 1px 6px 23px -11px rgba(0,0,0,0.75);
 }
 
 .port__image:focus,
 .port__image:hover {
-  box-shadow: 0 4px 8px 0 (#020202);
+  //box-shadow: 0 4px 8px 0 (#020202);
+  //  box-shadow: 1px 6px 23px -11px rgba(0,0,0,0.75);
 }
 
 .card__port:focus,
 .card__port:hover {
-  box-shadow: 0 4px 12px 0 (#020202);
+  //box-shadow: 0 4px 12px 0 (#020202);
+  //  box-shadow: 1px 6px 23px -11px rgba(0,0,0,0.75);
 }
 @media screen and (max-width: 1000px) {
   .card__port {

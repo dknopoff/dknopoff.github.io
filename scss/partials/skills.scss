@@ -15,8 +15,20 @@
   text-align: center;
 }
 
+.skills__diagram {
+  width: 500px;
+  height: 500px;
+  display: block;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.skills__diagram:hover {
+  box-shadow: 1px 6px 23px -11px rgba(0,0,0,0.75);
+}
+
 .skills__text {
-  color: #afafaf;
+  color: black; //#afafaf
   font-family: Lato, sans-serif;
   text-align: left;
   font-size: 16px;
