@@ -2,6 +2,10 @@
 * Global scss component definitions
 * Colors, sizes, fonts go here
 */
+body {
+  background-color: white; //#1b1c1c
+  font-family: Lato, sans-serif;
+}
 @mixin box-shadow($shadow) {
   -webkit-box-shadow: $shadow;
   -moz-box-shadow: $shadow;
