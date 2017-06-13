@@ -119,7 +119,7 @@ html {
 .card__text {
   color: black;
   font-family: Lato, sans-serif;
-  text-align: left;
+  text-align: center;
   font-size: 16px;
   padding: 10px;
 }
