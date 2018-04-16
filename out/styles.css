@@ -123,6 +123,8 @@ img {
 ul {
     list-style-type: none;
     font-size: 30pt;
+    display: flex;
+    flex-direction: column;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -135,11 +137,11 @@ a {
     color: black;
 }
 
-.main>div {
+.main > div {
     min-width: 33%;
 }
 
-.title-block>p {
+.title-block > p {
     text-align: center;
 }
 
@@ -147,7 +149,6 @@ a {
     display: flex;
     justify-content: center;
 }
-
 
 @media only screen and (max-width: 1024px) {
     /* tablets and desktop */
@@ -168,7 +169,16 @@ a {
         flex-wrap: wrap !important;
         overflow: auto;
     }
-    .my-row>div {
+
+    .my-row > div {
         margin: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /* tablets and desktop */
+    ul {
+        flex-wrap: wrap;
+        flex-direction: row;
     }
 }
