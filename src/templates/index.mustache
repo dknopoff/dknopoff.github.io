@@ -38,7 +38,7 @@
     <div>
         <ul id="links">
             {{#links}}
-                <li class="menus"><a href="{{link}}" onclick="execute(this.href)">{{name}}</a></li>
+                <li class="menus"><a href="{{link}}" onclick="execute(this.href, this)">{{name}}</a></li>
             {{/links}}
         </ul>
     </div>

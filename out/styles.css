@@ -17,6 +17,10 @@
     /*flex-wrap: wrap;*/
 }
 
+.active {
+    font-family: Courier;
+}
+
 .title-block {
     display: flex;
     flex-direction: column;

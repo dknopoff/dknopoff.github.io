@@ -1,5 +1,20 @@
-function execute(e) {
+function execute(e, l) {
     var link = e.substr(e.indexOf("#"), e.length);
+    var btns = document.getElementsByClassName("menus");
+
+    var a = document.getElementsByTagName('a');
+    for (i = 0; i < a.length; i++) {
+        a[i].classList.remove('active');
+        if(a[i].innerText.substr(0,5) === 'this.') {
+            var text = a[i].innerText;
+            text = a[i].innerText.substr(5, a[i].innerText.length);
+            a[i].innerText = text;
+        }
+    }
+    l.className += 'active';
+    var txt = l.innerText;
+    txt = 'this.' + txt;
+    l.innerText = txt;
     for (x in data['links']) {
         if (data['links'][x]["link"] === link) {
             if (data['links'][x]['name'] === 'Skills') {
@@ -110,16 +125,16 @@ var data = {
             "name": "Skills",
             "link": "#skill",
             "info": [
-                {"1":"Python"},
-                {"1":"Java"}, {"1":"SQL"},
-                {"1":"HTML/CSS/Javascript"},
+                {"1": "Python"},
+                {"1": "Java"}, {"1": "SQL"},
+                {"1": "HTML/CSS/Javascript"},
                 {"1": "Terminal"},
                 {"1": "MVC"},
                 {"1": "Sketch/InVision"},
                 {"1": "Adobe"},
                 {"1": "Office Suite"},
                 {"1": "Git"}
-                ]
+            ]
         },
         {
             "name": "Portfolio",
