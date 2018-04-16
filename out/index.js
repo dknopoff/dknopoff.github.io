@@ -135,10 +135,10 @@ var data = {
                 {"1": "Office Suite"},
                 {"1": "Git"}
             ]
-        },
-        {
-            "name": "Portfolio",
-            "link": "#port"
         }
+        // {
+        //     "name": "Portfolio",
+        //     "link": "#port"
+        // }
     ]
 };
