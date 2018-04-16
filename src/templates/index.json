@@ -2,10 +2,6 @@
   "title": "index",
   "links": [
     {
-      "name": "Home",
-      "link": "#"
-    },
-    {
       "name": "Work",
       "link": "#work"
     },

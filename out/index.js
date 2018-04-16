@@ -18,7 +18,6 @@ function execute(e, l) {
     var txt = l.innerText;
     txt = 'this.' + txt;
     l.innerText = txt;
-
     // Check in JSON
     for (x in data['links']) {
         // where link matches
