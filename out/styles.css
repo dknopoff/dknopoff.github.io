@@ -72,7 +72,6 @@ html {
     margin: 30px;
     overflow: scroll;
     flex-wrap: nowrap !important;
-    margin-left: -150px !important;
     margin-top: 6vw;
 }
 
@@ -155,6 +154,26 @@ a {
     justify-content: center;
 }
 
+.round {
+    border-radius: 50%;
+    overflow: hidden;
+    /*width: 60px;*/
+    /*height: 60px;*/
+        width: 80px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.round img {
+    display: block;
+    /* Stretch
+          height: 100%;
+          width: 100%; */
+    min-width: 100%;
+    min-height: 100%;
+}
+
 @media only screen and (max-width: 1210px) {
     /* tablets and desktop */
     .main {
@@ -172,13 +191,13 @@ a {
         justify-content: center;
     }
 
-    .row>h1 {
+    .row > h1 {
         margin: 30px;
     }
 }
 
 /*@media only screen and (max-width: 425px) {*/
-    /*!* tablets and desktop *!*/
+/*!* tablets and desktop *!*/
 
 /*}*/
 
@@ -188,7 +207,8 @@ a {
         flex-wrap: wrap;
         flex-direction: row;
     }
-        .my-row {
+
+    .my-row {
         width: 90vw;
         flex-wrap: wrap !important;
         overflow: visible;
