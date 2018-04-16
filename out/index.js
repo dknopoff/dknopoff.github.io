@@ -1,7 +1,10 @@
 function execute(e, l) {
+    // Get link from button click
     var link = e.substr(e.indexOf("#"), e.length);
+    // Get all buttons that link to content
     var btns = document.getElementsByClassName("menus");
 
+    // For every button, remove 'active' class and add `this.`/active class to current
     var a = document.getElementsByTagName('a');
     for (i = 0; i < a.length; i++) {
         a[i].classList.remove('active');
@@ -15,9 +18,14 @@ function execute(e, l) {
     var txt = l.innerText;
     txt = 'this.' + txt;
     l.innerText = txt;
+
+    // Check in JSON
     for (x in data['links']) {
+        // where link matches
         if (data['links'][x]["link"] === link) {
+            // and it's the skills section
             if (data['links'][x]['name'] === 'Skills') {
+                // Generate output with corresponding values
                 var output = Mustache.render("<div class=\"row\" id=\"{{link}}\">\n" +
                     "    {{#info}}\n" +
                     "        <h1>{{1}}</h1>\n" +
@@ -39,6 +47,7 @@ function execute(e, l) {
                 document.getElementById("content").innerHTML = output;
             }
         } else if (link === "") {
+            // if there is no match clear the content pane
             document.getElementById("content").innerHTML = "<h1>Work in Progress!</h1>";
         }
     }
@@ -56,6 +65,7 @@ var data = {
             "name": "Work",
             "link": "#work",
             "info": [
+                    // Where 1 is title, 2 is company, 3 is time, 4 is place, 5 is description
                 {
                     "1": "QA Intern",
                     "2": "Alice",
@@ -101,6 +111,7 @@ var data = {
             ]
         },
         {
+            // Where 1 is degree, 2 is university, and 3 is time
             "name": "Education",
             "link": "#edu",
             "info": [
@@ -125,8 +136,10 @@ var data = {
             "name": "Skills",
             "link": "#skill",
             "info": [
+                // where 1 maps the skills correctly to mustache template
                 {"1": "Python"},
-                {"1": "Java"}, {"1": "SQL"},
+                {"1": "Java"},
+                {"1": "SQL"},
                 {"1": "HTML/CSS/Javascript"},
                 {"1": "Terminal"},
                 {"1": "MVC"},
