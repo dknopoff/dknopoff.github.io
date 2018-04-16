@@ -44,7 +44,7 @@ function execute(e) {
             console.log(output);
             document.getElementById("content").innerHTML = output;
         } else if (link === "") {
-            document.getElementById("content").innerHTML = "";
+            document.getElementById("content").innerHTML = "<h1>Work in Progress!</h1>";
         }
     }
 }
