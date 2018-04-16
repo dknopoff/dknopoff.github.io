@@ -18,7 +18,7 @@ function execute(e, l) {
     for (x in data['links']) {
         if (data['links'][x]["link"] === link) {
             if (data['links'][x]['name'] === 'Skills') {
-                var output = Mustache.render("<div class=\"row\" id=\"skill\">\n" +
+                var output = Mustache.render("<div class=\"row\" id=\"{{link}}\">\n" +
                     "    {{#info}}\n" +
                     "        <h1>{{1}}</h1>\n" +
                     "    {{/info}}\n" +
