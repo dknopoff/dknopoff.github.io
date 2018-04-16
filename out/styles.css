@@ -165,5 +165,10 @@ a {
     /* tablets and desktop */
     .my-row {
         width: 80vw;
+        flex-wrap: wrap !important;
+        overflow: auto;
+    }
+    .my-row>div {
+        margin: 20px;
     }
 }
