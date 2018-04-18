@@ -48,7 +48,7 @@
     margin: 0;
 }
 
-body {
+body, html {
     min-height: 100vh;
     display: flex;
     flex-direction: row;
@@ -57,9 +57,6 @@ body {
     background-color: transparent;
     color: white;
     font-family: 'Lato', sans-serif;
-}
-
-html {
     background: url("https://res.cloudinary.com/dknopoff/image/upload/f_auto/v1520699518/portfolio/bg3.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
