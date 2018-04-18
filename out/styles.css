@@ -54,15 +54,13 @@ body, html {
     flex-direction: row;
     align-items: center;
     width: 100%;
-    background-color: transparent;
     color: white;
     font-family: 'Lato', sans-serif;
-    background: url("https://res.cloudinary.com/dknopoff/image/upload/f_auto/v1520699518/portfolio/bg3.jpg") no-repeat center center fixed;
+    background: transparent url("https://res.cloudinary.com/dknopoff/image/upload/f_auto/v1520699518/portfolio/bg3.jpg") no-repeat fixed center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    width: 100%;
     height: 100%;
 
 }
