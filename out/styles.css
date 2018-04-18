@@ -80,7 +80,7 @@ html {
     margin: 10px !important;
 }
 
-.fa:active {
+.fa:active, .fa:hover {
     color: darkblue !important;
 }
 
@@ -89,7 +89,7 @@ html {
     margin: 10px !important;
 }
 
-.fab:active {
+.fab:active, .fab:hover {
     color: darkblue !important;
 }
 
