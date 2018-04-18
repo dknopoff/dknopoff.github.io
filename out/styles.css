@@ -80,7 +80,7 @@ html {
     margin: 10px !important;
 }
 
-.fa:active, .fa:hover {
+.fa:active {
     color: darkblue !important;
 }
 
@@ -89,7 +89,7 @@ html {
     margin: 10px !important;
 }
 
-.fab:active, .fab:hover {
+.fab:active {
     color: darkblue !important;
 }
 
@@ -104,6 +104,10 @@ html {
 .credit {
     text-decoration: none;
     color: gray;
+}
+
+.credit:active {
+    color: darkblue;
 }
 
 .space {
