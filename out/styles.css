@@ -98,7 +98,7 @@ html {
 
 .my-card {
     margin-right: 20px;
-    min-width: 100%;
+    min-width: 90%;
     text-align: center;
     background-color: rgba(239, 239, 239, 0.5);
     border-radius: 10px;
@@ -164,8 +164,6 @@ a {
 .round {
     border-radius: 50%;
     overflow: hidden;
-    /*width: 60px;*/
-    /*height: 60px;*/
     width: 80px;
     height: 80px;
     margin-left: auto;
@@ -174,9 +172,6 @@ a {
 
 .round img {
     display: block;
-    /* Stretch
-          height: 100%;
-          width: 100%; */
     min-width: 100%;
     min-height: 100%;
 }
@@ -228,13 +223,13 @@ a {
     }
 
     html {
-    background: url("https://res.cloudinary.com/dknopoff/image/upload/f_auto/v1524078844/bg3-portrait.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    min-width: 100%;
-    min-height: 100%;
+        background: url("https://res.cloudinary.com/dknopoff/image/upload/f_auto/v1524078844/bg3-portrait.jpg") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        min-width: 100%;
+        min-height: 100%;
 
-}
+    }
 }
