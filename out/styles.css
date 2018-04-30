@@ -3,7 +3,7 @@
     color: #000;
     width: min-content;
     padding: 5px;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 30pt;
     margin: 5px;
     border-radius: 3px;
@@ -84,7 +84,7 @@ html {
 }
 
 .fa:active {
-    color: darkblue !important;
+    color: grey !important;
 }
 
 .fab {
@@ -93,7 +93,7 @@ html {
 }
 
 .fab:active {
-    color: darkblue !important;
+    color: grey !important;
 }
 
 .my-card {
@@ -139,6 +139,7 @@ ul {
 }
 
 h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
     font-weight: 500;
     line-height: 1.2;
 }
