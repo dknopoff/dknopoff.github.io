@@ -136,6 +136,7 @@ var data = {
             "link": "#skill",
             "info": [
                 // where 1 maps the skills correctly to mustache template
+                // where 1 maps the skills correctly to mustache template
                 {"1": "Python"},
                 {"1": "Java"},
                 {"1": "SQL"},

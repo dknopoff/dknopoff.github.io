@@ -1,0 +1,52 @@
+{
+  "sections": [
+    {
+      "name": "Work",
+      "link": "#work",
+      "info": [
+        {
+          "title": "QA Intern",
+          "company": "Alice",
+          "date": "June 2017 - August 2017",
+          "location": "New York, NY",
+          "description": "Researched and developed a proof of concept for automated testing; aided in functional,targeted, and regression testing."
+        },
+        {
+          "title": "CRM Intern",
+          "company": "eMarketer",
+          "date": "August 2017 - Present",
+          "location": "New York, NY (Remote)",
+          "description": "Added, edited, and maintained Salesforce database in addition to writing and editing workflows, validation rules, and triggers."
+        },
+        {
+          "title": "Web Developer",
+          "company": "Flowvella",
+          "date": "May 2017 - June 2017",
+          "location": "Seattle, WA (Remote)",
+          "description": "Built webpages using HTML and SCSS."
+        },
+        {
+          "title": "Front End Intern",
+          "company": "Avatar",
+          "date": "June 2016 - August 2016",
+          "location": "Buenos Aires, Argentina",
+          "description": "Explored Javascript, HTML, SASS, and Github structure and proper application to web building."
+        },
+        {
+          "title": "CRM Intern",
+          "company": "eMarketer",
+          "date": "May 2016 - June 2016",
+          "location": "New York, NY",
+          "description": "Researched potential clients, wrote and modified formulas and workflows in Salesforce in addition to adding, editing and modifying fields in database."
+        },
+        {
+          "title": "Beta Tester",
+          "company": "Flowvella",
+          "date": "2015 - Present",
+          "location": "Seattle, WA (Remote)",
+          "description": "Test multiple beta versions through release of application."
+        }
+      ]
+    }
+  ]
+}
